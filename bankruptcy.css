@@ -1,0 +1,373 @@
+/* CSS Document */
+/* GENERAL */
+body{
+	background:#fff url('Images/stripbg.jpg') repeat-x 0 0;
+	height:301px;
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div, h1, p, form, input, a, li, img, label, span, h2, h3{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+ul{
+	list-style-type:none;
+}
+.spacer{
+	line-height:0;
+	font-size:0;
+	clear:both;
+}
+/*-----------------HEADER--------------------------*/
+div#main{
+	width:704px;
+	margin:0 auto;
+}
+div#main div#header{
+	height:57px;
+	width:704px;
+}
+div#header a img.logo{
+	display:block;
+	float:left;
+	margin:21px 0 0 0;
+}
+div#header form{
+	float:right;
+	width:305px;
+	margin:25px 0 0 0;
+	height:21px;
+}
+div#header form label{
+	font:normal 12px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#CC0033;
+	float:left;
+	margin-right:3px;
+}
+div#header form input{
+	width:214px;
+	height:20px;
+	padding:1px 2px;
+	float:left;
+	margin-right:3px;
+	}
+	
+div#header form input.goBtn{
+	padding:0;
+	width:31px;
+	height:21px;
+	margin:2px 0 0 0;
+}
+/*----------------------innerpages-----------------------*/
+div#header div#topNav{
+	width:280px;
+	float:right;
+	margin:25px 0 0 0;
+}
+div#topNav ul li{
+	float:left;
+	margin-right:10px;
+}
+
+/*-------------------Banner--------------------------*/
+div#main div#banner{
+	height:304px;
+	background:url('Images/bg-pic.jpg') no-repeat 100% 0;
+	position:relative
+}
+div#banner p{
+	width:348px;
+	padding:56px 0 0 0;
+	font:normal 12px/16px Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+div#banner p strong.first{
+	font-size:18px;
+	line-height:22px;
+	font-weight:normal;
+	padding:0;
+}
+div#banner strong.second{
+	width:320px;
+	font-size:12px;
+	line-height:18px;
+	font-weight:normal;
+	color:#74E8F6;
+	padding:0;
+	display:block;
+	margin:0;
+}
+div#banner a{
+	display:block;
+	width:77px;
+	height:23px;
+	background:url('Images/read-more.png') no-repeat 0 0;
+	
+	text-indent:-2000px;
+	top:180px;
+	left:228px;
+	position:absolute
+}
+div#banner a:hover{
+	background:url('Images/read-more-hover.png') no-repeat 0 0;
+	
+}
+/*-----------------lEFT PORTION-----------------------*/
+div#main div#leftPortion{
+	width:285px;
+	float:left;
+	margin:0 40px 0 0;
+	padding:0 0 20px 0;
+}
+h2{
+	font:bold 18px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#011E24;
+	margin-bottom:13px;
+}
+div#leftPortion ul{
+	margin:0 0 22px 0;
+	padding:0;
+}
+div#leftPortion ul li{
+	background:url('Images/btn-icon.gif') no-repeat 0 70%;
+	height:18px; margin-left:0; margin-right:0; margin-top:0; margin-bottom:5px; padding-left:26px; padding-right:0; padding-top:0; padding-bottom:0
+}
+div#leftPortion ul li a{
+    font:normal 12px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#0C1E23;
+}
+div#leftPortion ul li a:hover{
+	color:#CC0033;
+	}
+div#leftPortion ul li span{
+
+	font:bold 14px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#CC0033;
+
+
+}
+/*--------------------Testimonial----------------*/
+div#leftPortion div#testimonial{
+	width:285px;
+}
+img.client{
+	float:left;
+	border:8px solid #CBCBCB;
+	margin-right:17px;
+}
+p{
+ font:normal 12px/14px Verdana, Arial, Helvetica, sans-serif;
+ color:#44555D;
+ margin-bottom:5px;
+ text-align:justify;
+ }
+div#testimonial p.text{
+ font:bold 11px/13px Verdana, Arial, Helvetica, sans-serif;
+ color:#E22121;
+ margin:2px 0 0 155px;
+ }
+div#testimonial p.text1{
+ font:normal 11px/13px Verdana, Arial, Helvetica, sans-serif;
+ color:#E22121;
+ margin:2px 0 10px 170px;
+ }
+strong.third{
+ font:normal 12px/14px Verdana, Arial, Helvetica, sans-serif;
+ color:#CB0033;
+  }
+ /*--------------------BANKRUPTCY----------------*/
+ div#leftPortion div#bankruptcy{
+ 	width:285px;
+ }
+ a.link{
+  font:normal 12px/14px Verdana, Arial, Helvetica, sans-serif;
+  color:#CB0033;
+  text-decoration:underline;
+  padding:0 0 10px 0;
+ }
+  a.link:hover{
+  text-decoration:none;
+  }
+a.readmore{
+	display:block;
+	width:94px;
+	height:21px;
+	float:right;
+	background:url('Images/read-more-bg.jpg') repeat-x 0 0;
+	text-align:center;
+	font-size:11px;
+	line-height:21px;
+	font-weight:bold;
+	color:#fff;
+	margin-left:0; margin-right:0; margin-top:4px; margin-bottom:0
+  }
+a.readmore:hover{
+	text-decoration:underline;
+}
+/*------------------------RIGHT PORTION-------------------------*/
+div#main div#rightPortion{
+	 float:right;
+	 width:378px;
+	 padding:0 0 10px 0;
+}
+div#rightPortion div#myreadmore{
+width:250px
+height:75px;
+margin-top:10px;
+float:left;
+}
+div#myreadmore p{
+  color:#fff;
+  background:url('images/toolInfo.gif') no-repeat 0 0;
+  width:340px;
+  height:211px;
+  position:absolute;
+  top:-565px;
+  left:670px;
+  text-align:justify;
+  display:none; font-style:normal; font-variant:normal; font-weight:normal; line-height:14px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:0; padding-right:42px; padding-top:50px; padding-bottom:0
+  }
+/*-------------------for innerpage--------------------*/
+div#rightPortion ul{
+	float:left;
+	margin:0;
+	padding:0 0 5px 0;
+}
+div#rightPortion ul li{
+	padding:5px 0;
+}
+div#rightPortion ul li p.list{
+	width:330px;
+	display:block;
+	background:url('Images/btn-icon.gif') no-repeat 0 4px;; font-style:normal; font-variant:normal; font-weight:normal; line-height:15px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:13px; padding-right:0; padding-top:0; padding-bottom:0
+}
+div#centerText{
+	width:704px;
+	padding:0 0 20px 0;
+}
+div#centerText ul{
+	float:left;
+	margin:0;
+	padding:0 0 5px 0;
+}
+div#centerText ul li{
+	padding:5px 0;
+}
+div#centerText ul li p.list{
+	width:660px;
+	display:block;
+	background:url('Images/btn-icon.gif') no-repeat 0 4px;; font-style:normal; font-variant:normal; font-weight:normal; line-height:15px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:13px; padding-right:0; padding-top:0; padding-bottom:0
+}
+a.rightlink{
+    width:330px;
+	color:#CB0033;
+    text-decoration:underline;
+  	display:block;
+	background:url('Images/btn-icon.gif') no-repeat 0 4px;; font-style:normal; font-variant:normal; font-weight:normal; line-height:14px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:13px; padding-right:0; padding-top:0; padding-bottom:0
+}
+a.rightlink:hover{
+text-decoration:none;
+}
+a.underline{
+color:#FF6600;
+text-decoration:underline;
+}
+div#rightPortion ul li.inline{
+	padding:5px 0 0 20px;
+}
+h3{
+	font:bold 14px/19px Verdana, Arial, Helvetica, sans-serif;
+	color:#011E24;
+	margin-bottom:13px;
+}
+/*-------------------for innerpage end--------------------*/
+p.contact{
+ font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif!important;
+ margin-bottom:10px!important;
+ }
+strong.cont{
+ font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif;
+ color:#CB0033;
+ }
+form.contactForm{
+	width:378px;
+	background-color: #ff0000;
+}
+form.contactForm label{
+	 font:normal 12px/21px Verdana, Arial, Helvetica, sans-serif;
+	 color:#fff;
+	 padding:0;
+	 float:left;
+}
+form.contactForm input{
+	width:251px;
+	height:21px;
+	float:right;
+	margin:0 0 10px 0;
+	padding:2px 2px;
+	background-color: #ff0000;
+	color:#fff;
+}
+form.contactForm textarea{
+	width:251px;
+	float:right;
+	margin:0 0 10px 0;
+	padding:2px 2px;
+	overflow:auto;
+	height:60px;
+	background-color: #ff0000;
+}
+form.contactForm input.btn{
+	width:94px;
+	height:21px;
+	margin-right:18px;
+	
+}
+/*----------------------footer--------------------------*/
+div#footer{
+	 height:40px;
+	 background:url('Images/footer-bg.jpg') repeat-x 0 0;
+	 padding-left:0; padding-right:0; padding-top:10px; padding-bottom:10px
+}
+div#footer ul{
+	margin:0 auto;
+	width:262px;
+}
+div#footer ul li{
+	float:left;
+	margin-right:10px;
+}
+div#footer ul li a{
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#070F11;
+}
+div#footer ul li a:hover{
+	text-decoration:underline;
+}
+div#footer p.foot{
+	font:normal 9px/15px Verdana, Arial, Helvetica, sans-serif;
+ 	color:#fff;
+ 	margin:10px 0 0 0;
+	text-align:center;
+}
+/*-----------------------------bankruptcy read more bottom text---------------------------*/
+div#readmoreText{
+	width:704px;
+	padding:0 0 20px 0;
+}
+div#readmoreText p.special{
+	font:normal 15px/25px Verdana, Arial, Helvetica, sans-serif;
+	color:#CB0033;
+}
+/*--------------------misc----------------------*/
+.noRightMargin{
+margin-right:0!important;
+	}
